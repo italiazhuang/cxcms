@@ -225,6 +225,16 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\cxcms.BLL\cxcms.BLL.csproj">
+      <Project>{eb6835b0-cb34-46a5-b6a6-9a0ffa996da1}</Project>
+      <Name>cxcms.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\cxcms.common\cxcms.common.csproj">
+      <Project>{befa75e8-f901-4f4e-adfa-29e3cf185508}</Project>
+      <Name>cxcms.common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
